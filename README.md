@@ -1,2 +1,2 @@
-# IBM_DATA_CAPSTONE_PROJECT
+# Coursera_Capstone
 This project is for IBM Data Analysis Capstone project.
