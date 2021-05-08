@@ -1,37 +1,10 @@
 ## The different between HongKong and NewYork, and the smart location choice to open an coffee shop
 
-You can use the [editor on GitHub](https://github.com/bone2/Coursera_Capstone/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+###Background
+New York city and HongKong are both very bustling international metropolis and international finance centers, on the back of two of the world's largest countries - USA and China where the total opposite of the earth. So they must be lots of similarities and dissimilarities. This would be an interesting questions and must many people have interested in.
+On the other side, HongKong is famous for its food especially for Chinese traditional food, if someone want to open a western-style restaurant like a coffee shop, where would be a smart choice?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bone2/Coursera_Capstone/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Hello Github
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+###Data
+All those two problems solved based on data, which mainly from [foursquare](https://foursquare.com/). Other part of data may come from Wikipedia pages or other related website.
+The data should describe the venue categories in each city neighborhoods. After collected all of those useful data, I will wrangling it firstly. Then use those categories features group the neighborhoods into different clusters by using k-means algorithm. If compare with the majority neighborhoods clusters, we could conclude the characters of the cities, there would be some similarities and some dissimilarities exist at the same.
+Chose a right place to run a small business is a very practical problem, everyone who before run a coffee shop must take a deep inspect into the business environment around it, in my report I will show a very different solution from that traditional tactic. My solution still based on the data collected from foursquare, firstly I will group the venues into different type of cluster of some neighborhood, then take this operation to each neighborhoods to get the cluster and top 5 venues of each neighborhood, finally chose those neighborhoods have not any or many coffee shops as considerable neighborhoods where could run a coffee shop.
