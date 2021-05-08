@@ -1,11 +1,11 @@
 ## The different between HongKong and NewYork, and the smart location choice to open an coffee shop
 
-###Background
+### Background
 
 New York city and HongKong are both very bustling international metropolis and international finance centers, on the back of two of the world's largest countries - USA and China where the total opposite of the earth. So they must be lots of similarities and dissimilarities. This would be an interesting questions and must many people have interested in.
 On the other side, HongKong is famous for its food especially for Chinese traditional food, if someone want to open a western-style restaurant like a coffee shop, where would be a smart choice?
 
-###Data
+### Data
 
 All those two problems solved based on data, which mainly from [foursquare](https://foursquare.com/). Other part of data may come from Wikipedia pages or other related website.
 The data should describe the venue categories in each city neighborhoods. After collected all of those useful data, I will wrangling it firstly. Then use those categories features group the neighborhoods into different clusters by using k-means algorithm. If compare with the majority neighborhoods clusters, we could conclude the characters of the cities, there would be some similarities and some dissimilarities exist at the same.
