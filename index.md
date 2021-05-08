@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## The different between HongKong and NewYork, and the smart location choice to open an coffee shop
 
 You can use the [editor on GitHub](https://github.com/bone2/Coursera_Capstone/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
